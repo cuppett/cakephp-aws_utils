@@ -1,0 +1,27 @@
+{
+    "name":"cuppett/cakephp-aws_utils",
+    "description":"CakePHP Amazon Web Services Utilities",
+    "type":"cakephp-plugin",
+    "keywords":[
+        "cakephp",
+        "aws",
+        "amazon",
+        "dynamodb",
+        "session"
+    ],
+    "homepage":"https://github.com/cuppett/cakephp-aws_utils",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Stephen Cuppett",
+            "email":"steve@cuppett.com",
+            "homepage":"http://stephencuppett.com",
+            "role":"Author"
+        }
+    ],
+    "require":{
+        "php":">=5.3.3",
+        "composer/installers":"*",
+        "aws/aws-sdk-php":"2.*"
+    }
+}
